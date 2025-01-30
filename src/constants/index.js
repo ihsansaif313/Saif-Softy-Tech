@@ -33,7 +33,6 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
 } from "../assets";
 
 export const navigation = [
@@ -74,8 +73,6 @@ export const navigation = [
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
-
-export const companyLogos = [yourlogo];
 
 export const Services1 = ["HTML 5", "CSS 3", "Javascript", "React"];
 export const Services2 = ["Express", "Node js", "Mongo DB"];
