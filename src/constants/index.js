@@ -113,7 +113,7 @@ export const roadmap = [
     id: "2",
     title: "Halasky Collaboration",
     text: "Designed and launched an integrated Airplane and Hotel Management System in partnership with Halasky, streamlining operations and enhancing user experience. The solution features automated booking, real-time availability, and advanced analytics for both airlines and hotels. This collaboration has improved operational efficiency and customer satisfaction.",
-    date: "May 202",
+    date: "May 2025",
     status: "done",
     imageUrl: roadmap3,
   },
