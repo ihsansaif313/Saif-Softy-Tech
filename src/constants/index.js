@@ -33,6 +33,9 @@ import {
   sliders04,
   telegram,
   twitter,
+  linkedin,
+  x,
+  thread,
 } from "../assets";
 
 export const navigation = [
@@ -300,13 +303,13 @@ export const socials = [
   {
     id: "0",
     title: "Linkedin",
-    iconUrl: discordBlack,
+    iconUrl: linkedin,
     url: "https://www.linkedin.com/company/saif-softy-tech",
   },
   {
     id: "1",
     title: "X",
-    iconUrl: twitter,
+    iconUrl: x,
     url: "https://x.com/saifsoftytech",
   },
   {
@@ -318,7 +321,7 @@ export const socials = [
   {
     id: "3",
     title: "Thread",
-    iconUrl: telegram,
+    iconUrl: thread,
     url: "https://www.threads.com/@saifsoftytech",
   },
   {

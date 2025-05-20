@@ -72,6 +72,9 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import linkedin from "./socials/linkedin.svg";
+import x from "./socials/x.svg";
+import thread from "./socials/thread.svg";
 
 export {
   check,
@@ -140,4 +143,7 @@ export {
   instagram,
   telegram,
   twitter,
+  linkedin,
+  x,
+  thread,
 };
