@@ -17,7 +17,7 @@ const Services = () => {
       <div className="container">
         <Heading
           title="Your Journey to Success "
-          text="Enigmatics unlocks your true potential."
+          text="Saif Softy Tech unlocks your true potential."
         />
 
         <div className="relative">
@@ -35,7 +35,7 @@ const Services = () => {
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">One Milestone at a Time! 🚀</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Enigmatics unlocks your true potential.
+                Saif Softy Tech unlocks your true potential.
               </p>
               <ul className="body-2">
                 {Services1.map((item, index) => (

@@ -17,48 +17,48 @@ const Roadmap = () => (
 
           return (
             <div
-              className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
+              className={`md:flex even:md:translate-y-[2rem] p-0.5 rounded-lg ${
                 item.colorful ? "bg-conic-gradient" : "bg-n-6"
               }`}
               key={item.id}
             >
-              <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
+              <div className="relative p-3 bg-n-8 rounded-lg overflow-hidden xl:p-5">
                 <div className="absolute top-0 left-0 max-w-full">
                   <img
-                    className="w-full"
+                    className="w-2/3"
                     src={grid}
-                    width={550}
-                    height={550}
+                    width={300}
+                    height={300}
                     alt="Grid"
                   />
                 </div>
                 <div className="relative z-1">
-                  <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
+                  <div className="flex items-center justify-between max-w-[18rem] mb-4 md:mb-10">
                     <Tagline>{item.date}</Tagline>
 
-                    <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
+                    <div className="flex items-center px-3 py-0.5 bg-n-1 rounded text-n-8">
                       <img
-                        className="mr-2.5"
+                        className="mr-2"
                         src={item.status === "done" ? check2 : loading1}
-                        width={16}
-                        height={16}
+                        width={14}
+                        height={14}
                         alt={status}
                       />
-                      <div className="tagline">{status}</div>
+                      <div className="tagline text-xs">{status}</div>
                     </div>
                   </div>
 
-                  <div className="mb-10 -my-10 -mx-15">
+                  <div className="mb-5 -my-5 -mx-8">
                     <img
-                      className="w-full"
+                      className="w-full max-w-[250px] mx-auto"
                       src={item.imageUrl}
-                      width={628}
-                      height={426}
+                      width={250}
+                      height={170}
                       alt={item.title}
                     />
                   </div>
-                  <h4 className="h4 mb-4">{item.title}</h4>
-                  <p className="body-2 text-n-4">{item.text}</p>
+                  <h4 className="h4 mb-2 text-base">{item.title}</h4>
+                  <p className="body-2 text-n-4 text-sm">{item.text}</p>
                 </div>
               </div>
             </div>

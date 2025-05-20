@@ -25,7 +25,11 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Explore the Possibilities of&nbsp;your&nbsp;Growth with {` `}
             <span className="inline-block relative">
-              Enigmatics{" "}
+              <strong
+                className="bg-gradient-to-r from-yellow-400 via-green-400 via-purple-500 to-red-500 bg-clip-text text-transparent"
+              >
+                SAIF SOFTY TECH
+              </strong>{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,8 +40,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unlock the power of web development with Enigmatics. Elevate your
-            skills with Enigmatics, the ultimate MERN stack training platform.
+            Empower your digital journey with Saif Softy Tech—advance your expertise in web and AI development, and leverage our professional AI and web services tailored to your business needs.
           </p>
           <Button href="/pricing" white>
             Get started

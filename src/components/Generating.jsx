@@ -3,7 +3,11 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Generating = ({ className }) => {
   const [text] = useTypewriter({
-    words: ["generating", "analyzing", "providing"],
+    words: [
+      "Empowering your business online",
+      "Innovative digital solutions",
+      "Transforming ideas into reality"
+    ],
     loop: {},
     typeSpeed: 90,
     deleteSpeed: 80,
@@ -16,7 +20,7 @@ const Generating = ({ className }) => {
     >
       <img className="w-5 h-5 mr-4" src={loading} alt="Loading" />
       <h4>
-        Enigmatics is <span>{text}</span>
+        Saif Softy Tech <span>{text}</span>
         <span>
           <Cursor />
         </span>

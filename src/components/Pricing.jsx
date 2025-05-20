@@ -28,7 +28,7 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Join us today and contribute to the continued success of Enigmatics"
+          tag="Join us today and contribute to the continued success of Saif Softy TECH"
           title="Pay never, use forever"
         />
 

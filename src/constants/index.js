@@ -58,12 +58,17 @@ export const navigation = [
   },
   {
     id: "4",
+    title: "Blogs",
+    url: "#blogs",
+  },
+  {
+    id: "5",
     title: "New account",
     url: "#signup",
     onlyMobile: true,
   },
   {
-    id: "5",
+    id: "6",
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
@@ -89,37 +94,39 @@ export const ServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Built an AI model to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2024",
+    title: "Advanced LMS System",
+    text: "Developed a comprehensive Learning Management System (LMS) supporting enrollment for students, schools, and teachers. The platform features structured courses, automated AI-driven assessments, and progression tracking. Students advance upon successful evaluations and can monitor peer progress, while educators and institutions gain actionable insights into performance. The LMS also integrates real-time chat, discussion forums, and resource sharing to foster collaborative learning.",
+    date: "December 2024",
     status: "done",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Currently building game-like elements, such as badges or leaderboards, to incentivize users to engage with the game more frequently.",
-    date: "May 2023",
+    title: "Internship Program",
+    text: "Implemented a system providing students with remote internship opportunities in Web Development and AI, catering to both beginners and advanced learners. The program includes mentorship, project-based learning, and regular feedback sessions to ensure continuous growth. Participants gain hands-on experience by working on real-world projects and collaborating with industry professionals.",
+    date: "May 2025",
     status: "progress",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Halasky",
-    text: "Built an Airplane and Hotel Mannagement system with collaboration of the Halasky",
-    date: "April 2024",
+    title: "Halasky Collaboration",
+    text: "Designed and launched an integrated Airplane and Hotel Management System in partnership with Halasky, streamlining operations and enhancing user experience. The solution features automated booking, real-time availability, and advanced analytics for both airlines and hotels. This collaboration has improved operational efficiency and customer satisfaction.",
+    date: "May 202",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Creating over 56 APIs to integrate with the Enigmatics website for effective streaming and buffering in collaboration with nodejs buffers",
-    date: "January 2024",
+    title: "API Integration",
+    text: "Developing and integrating over 56 APIs to enhance the Enigmatics platform, enabling efficient streaming, buffering, and seamless connectivity using Node.js buffers. The APIs cover a wide range of functionalities, including payment processing, authentication, third-party integrations, and data analytics. This initiative aims to provide a robust and scalable backend infrastructure.",
+    // date: "2025",
     status: "progress",
     imageUrl: roadmap4,
   },
+
+
 ];
 
 export const collabText =
@@ -204,7 +211,7 @@ export const pricing = [
   {
     id: "0",
     title: "Frontend",
-    description: "Asad Ullah Afzaal, Senior Frontend Developer.",
+    description: "",
     price: "0",
     features: [
       "Personalized recommendations based on your preferences",
@@ -215,10 +222,10 @@ export const pricing = [
   {
     id: "1",
     title: "Backend",
-    description: "Zia Ullah Khan, priority support, HR.",
+    description: "",
     price: "0",
     features: [
-      "An advanced support program for any complex quereis",
+      "An advanced support program for any complex queries",
       "An analytical group to track your progress",
       "Priority support to solve issues quickly",
     ],
@@ -226,12 +233,12 @@ export const pricing = [
   {
     id: "2",
     title: "Enterprise",
-    description: "Congratulations! you are now an employee of Enigmatics.",
+    description: "We offer remote internship opportunities and employment to outstanding candidates who demonstrate capability and commitment.",
     price: null,
     features: [
-      "Job Oppurtunity",
-      "Hands on Experience",
-      "Grow in Cognitive Environment",
+      "Job Opportunity",
+      "Hands-on Experience",
+      "Grow in a Cognitive Environment",
     ],
   },
 ];
@@ -265,7 +272,7 @@ export const benefits = [
   {
     id: "3",
     title: "Build & Get Hired",
-    text: "Prove your skills by working on assignments. Your performances will get you the opportunity to get hired by Enigmatics.",
+    text: "Prove your skills by working on assignments. Your performances will get you the opportunity to get hired by Saif Softy Tech.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
